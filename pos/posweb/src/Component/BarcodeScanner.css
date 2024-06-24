@@ -1,0 +1,12 @@
+.barcode-scanner {
+    margin-bottom: 20px;
+  }
+  
+  .barcode-scanner input {
+    width: 97%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,97 @@
+/* Report component styles */
+
+.report-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.report-container:hover {
+  transform: scale(1.02);
+}
+
+.report-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.report-options {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.report-options button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.report-options button:hover {
+  background-color: #357dbf;
+  transform: translateY(-2px);
+}
+
+.report-options button:focus {
+  outline: none;
+}
+
+.report-data {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.report-data ul {
+  list-style: none;
+  padding: 0;
+}
+
+.report-data ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.report-data p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.csv-download-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #50e3c2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.csv-download-btn:hover {
+  background-color: #3fc1a1;
+  transform: translateY(-2px);
+}
+
+.csv-download-btn:focus {
+  outline: none;
+}
