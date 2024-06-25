@@ -1,0 +1,58 @@
+/* BusinessForm.css */
+
+.business-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .business-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .business-form-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .business-form-container label {
+    font-weight: bold;
+  }
+  
+  .business-form-container input[type="text"],
+  .business-form-container input[type="email"],
+  .business-form-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .business-form-container input[type="text"]:focus,
+  .business-form-container input[type="email"]:focus,
+  .business-form-container input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .business-form-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .business-form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
