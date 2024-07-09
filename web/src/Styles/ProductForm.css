@@ -1,0 +1,62 @@
+/* ProductForm.css */
+
+.product-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-form-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .product-form-container form {
+    display: grid;
+    gap: 16px;
+  }
+  
+  .product-form-container label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .product-form-container input[type="text"],
+  .product-form-container input[type="number"],
+  .product-form-container textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .product-form-container input[type="text"]:focus,
+  .product-form-container input[type="number"]:focus,
+  .product-form-container textarea:focus {
+    border-color: #4caf50;
+  }
+  
+  .product-form-container button[type="submit"] {
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-form-container button[type="submit"]:hover {
+    background-color: #003d8a;
+  }
+  

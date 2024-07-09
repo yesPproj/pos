@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5f7;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  transition: margin-left 0.3s;
+}
+
+.sidebar.open ~ .content {
+  margin-left: 250px;
+}
+
+.sidebar.closed ~ .content {
+  margin-left: 0;
+}
