@@ -1,0 +1,42 @@
+.help-container {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Positioning it to the left of the sidebar */
+    z-index: 1000;
+  }
+  
+  .help-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .help-content {
+    position: absolute;
+    top: 60px; /* Adjust as needed to avoid overlapping with sidebar */
+    left: 250px; /* Adjust based on sidebar width */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .help-content h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .help-content p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #555;
+  }
+  

@@ -1,0 +1,51 @@
+/* Notification.css */
+
+.notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align notifications to the right */
+  }
+  
+  .notification {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* Optional: Set a fixed width for notifications */
+  }
+  
+  .notification.info {
+    border-left: 4px solid #2196F3;
+  }
+  
+  .notification.success {
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .notification.warn {
+    border-left: 4px solid #FFC107;
+  }
+  
+  .notification.error {
+    border-left: 4px solid #F44336;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeout {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-20px); }
+  }
+  
