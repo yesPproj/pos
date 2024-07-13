@@ -1,0 +1,64 @@
+/* Setting.css (or App.css) */
+
+.form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+  }
+  
+  .business-details-form {
+    max-width: 500px; /* Adjust maximum width based on your design */
+    margin: 0 auto;
+    padding: 30px;
+    /* background-color: #ffffff;
+    border: 1px solid #e0e0e0; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+  }
+  
+  .business-details-form form div {
+    margin-bottom: 20px;
+  }
+  
+  .business-details-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333; /* Dark text for labels */
+  }
+  
+  .business-details-form input[type="text"],
+  .business-details-form input[type="email"],
+  .business-details-form input[type="number"] {
+    width: calc(100% - 12px); /* Adjust width based on your design */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .business-details-form input[type="text"]:focus,
+  .business-details-form input[type="email"]:focus,
+  .business-details-form input[type="number"]:focus {
+    border-color: #4caf50; /* Accent color on focus */
+  }
+  
+  .business-details-form button[type="submit"] {
+    background-color: #004aad; /* Dark blue button */
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+  }
+  
+  .business-details-form button[type="submit"]:hover {
+    background-color: #003d8a; /* Darker shade on hover */
+  }
+  

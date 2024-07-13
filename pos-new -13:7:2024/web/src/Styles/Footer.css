@@ -1,0 +1,23 @@
+/* Footer.css */
+.footer {
+    /* background-color: #ffffff; */
+    color: #000000; /* Adjust text color for visibility against white background */
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-logo {
+    width: 25px;
+    height: auto;
+    margin-right: 10px; /* Reduced margin for better alignment */
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px; /* Adjust padding for better spacing */
+}
+
+.footer-bottom p {
+    margin: 0;
+}
